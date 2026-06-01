@@ -7,6 +7,9 @@ int main() {
     scanf("%d", &N);
 
     int *p, *q;
+    
+    int *p = nullptr;
+    int *q = nullptr;
 
     for (p = a; p < a + N; p++)
         scanf("%d", p);
