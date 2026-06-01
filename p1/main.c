@@ -4,12 +4,11 @@ int main() {
     char str[11];
     char *p, *q;
 
-    scanf("%10s", str);
-
     char maxChar;
     int maxCount = 0;
 
     for (p = str; p < str + 10; p++) {
+        scanf("%10s", str);
         int count = 0;
 
         for (q = str; q < str + 10; q++) {
