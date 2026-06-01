@@ -8,7 +8,7 @@ int main() {
     int maxCount = 0;
 
     for (p = str; p < str + 10; p++) {
-        scanf("%10s", str);
+        scanf(" %c", p);
         int count = 0;
 
         for (q = str; q < str + 10; q++) {
